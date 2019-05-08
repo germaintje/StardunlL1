@@ -1,0 +1,71 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a.button{
+	background-color: #008cff;
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    text-decoration: none;
+	float: right;
+}
+
+table{
+	border: 2px solid grey;
+	font-size: 20px;
+	font-weight: normal;
+	width: 100%;
+}
+
+td, th{
+	border: 1px solid black;	
+}
+
+.actions {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*Create style*/
+body.create{
+	width: 50%;
+	margin: 0 auto;
+	background-color: aliceblue;
+}
+
+.terug {
+	background-color: #008cff;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+}
+
+/*search bar*/
+.topnav input[type=text] {
+  padding: 6px;
+  float: left;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid lightgrey;
+  width: 400px;
+}
+
+.topnav .search-container button {
+  float: left;
+  padding: 6px 10px;
+  margin-right: 16px;
+  background: lightgrey;
+  border: 1px solid lightgrey;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  background-color: white;
+}
+
+
+
